@@ -1,4 +1,4 @@
-<?php // Do not put any HTML above this line
+<?php 
 session_start();
 require_once "pdo.php";
 $stmt = $pdo->query("SELECT profile_id, first_name,last_name , headline from users join Profile on users.user_id = Profile.user_id");
