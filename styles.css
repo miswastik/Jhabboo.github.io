@@ -520,6 +520,7 @@
     #a6ffcb,
     #12d8fa,
     #1fa2ff
+	
   ); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(
     to right,
@@ -538,6 +539,60 @@
     #fff800 100%
   );
 }
+
+
+
+.services__card:nth-child(4) {
+  background-image: linear-gradient(
+    -225deg,
+    #231557 0%,
+    #E94911 29%,
+    #11DC08 67%,
+    #5F73FB 100%
+  );
+}
+
+.services__card:nth-child(5) {
+  background-image: linear-gradient(
+    -225deg,
+    #231557 0%,
+    #0CD32F 29%,
+    #E11D2E 67%,
+    #0FE5DC 100%
+  );
+}
+
+.services__card:nth-child(6) {
+  background-image: linear-gradient(
+    -225deg,
+    #2D6B3B 0%,
+    #27AA77 29%,
+    #375480 67%,
+    #1C9096 100%
+  );
+}
+
+.services__card:nth-child(7) {
+  background-image: linear-gradient(
+    -225deg,
+    #1C9096 0%,
+    #27AA77 29%,
+    #faaca8 67%,
+    #ddd6f3 100%
+  );
+}
+
+.services__card:nth-child(8) {
+  background-image: linear-gradient(
+    -225deg,
+    #96DEDA 0%,
+    #ffc500 29%,
+    #c21500 67%,
+    #FFB88C 100%
+  );
+}
+
+
 
 .services__card h2 {
   text-align: center;
